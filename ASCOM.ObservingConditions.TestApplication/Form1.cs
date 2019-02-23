@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace ASCOM.YoctoMeteo
+namespace ASCOM.ObservingConditions.TestApplication
 {
     public partial class Form1 : Form
     {

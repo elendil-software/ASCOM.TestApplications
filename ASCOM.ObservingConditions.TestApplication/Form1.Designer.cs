@@ -1,4 +1,4 @@
-﻿namespace ASCOM.YoctoMeteo
+﻿namespace ASCOM.ObservingConditions.TestApplication
 {
     partial class Form1
     {
@@ -65,12 +65,12 @@
             // labelDriverId
             // 
             this.labelDriverId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelDriverId.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::ASCOM.YoctoMeteo.Properties.Settings.Default, "DriverId", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.labelDriverId.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::ASCOM.ObservingConditions.TestApplication.Properties.Settings.Default, "DriverId", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.labelDriverId.Location = new System.Drawing.Point(12, 40);
             this.labelDriverId.Name = "labelDriverId";
             this.labelDriverId.Size = new System.Drawing.Size(291, 21);
             this.labelDriverId.TabIndex = 2;
-            this.labelDriverId.Text = global::ASCOM.YoctoMeteo.Properties.Settings.Default.DriverId;
+            this.labelDriverId.Text = global::ASCOM.ObservingConditions.TestApplication.Properties.Settings.Default.DriverId;
             this.labelDriverId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // GetDataButton
