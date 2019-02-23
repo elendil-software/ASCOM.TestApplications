@@ -8,8 +8,8 @@
     <ProjectGuid>{8E8D406C-1838-4914-867D-AB602D0EAF3E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASCOM.IPX800RollOffRoof</RootNamespace>
-    <AssemblyName>ASCOM.IPX800RollOffRoof.Test</AssemblyName>
+    <RootNamespace>ASCOM.Dome.TestApplication</RootNamespace>
+    <AssemblyName>ASCOM.Dome.TestApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>

@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Julien Tschäppät")]
-[assembly: AssemblyProduct("Julien Tschäppät")]
-[assembly: AssemblyCopyright("Copyright © 2013 Julien Tschäppät")]
+[assembly: AssemblyProduct("ASCOM Dome Driver Test Application")]
+[assembly: AssemblyCopyright("Copyright © 2013 - Julien Tschäppät")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
