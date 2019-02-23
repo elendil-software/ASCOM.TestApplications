@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace ASCOM.IPX800RollOffRoof
+namespace ASCOM.Dome.TestApplication
 {
 	public partial class Form1 : Form
 	{

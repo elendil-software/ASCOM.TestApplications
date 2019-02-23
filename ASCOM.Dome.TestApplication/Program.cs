@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ASCOM.IPX800RollOffRoof
+namespace ASCOM.Dome.TestApplication
 {
     static class Program
     {
