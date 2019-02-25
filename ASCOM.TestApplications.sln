@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.ObservingConditions.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Switch.TestApplication", "ASCOM.Switch.TestApplication\ASCOM.Switch.TestApplication.csproj", "{544B8128-6D5A-4004-A6C3-1A962005542C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.SafetyMonitor.TestApplication", "ASCOM.SafetyMonitor.TestApplication\ASCOM.SafetyMonitor.TestApplication.csproj", "{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,6 +29,10 @@ Global
 		{544B8128-6D5A-4004-A6C3-1A962005542C}.Debug|x86.Build.0 = Debug|x86
 		{544B8128-6D5A-4004-A6C3-1A962005542C}.Release|x86.ActiveCfg = Release|x86
 		{544B8128-6D5A-4004-A6C3-1A962005542C}.Release|x86.Build.0 = Release|x86
+		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Debug|x86.ActiveCfg = Debug|x86
+		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Debug|x86.Build.0 = Debug|x86
+		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Release|x86.ActiveCfg = Release|x86
+		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
