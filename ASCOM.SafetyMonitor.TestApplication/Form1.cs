@@ -33,6 +33,7 @@ namespace ASCOM.SafetyMonitor.TestApplication
             if (IsConnected)
             {
                 _driver.Connected = false;
+                readButton.Enabled = false;
             }
             else
             {
@@ -40,6 +41,7 @@ namespace ASCOM.SafetyMonitor.TestApplication
                 {
                     Connected = true
                 };
+                readButton.Enabled = true;
             }
             SetUIState();
         }

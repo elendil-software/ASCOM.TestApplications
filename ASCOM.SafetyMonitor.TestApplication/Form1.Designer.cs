@@ -69,6 +69,7 @@
             // 
             // readButton
             // 
+            this.readButton.Enabled = false;
             this.readButton.Location = new System.Drawing.Point(306, 84);
             this.readButton.Name = "readButton";
             this.readButton.Size = new System.Drawing.Size(75, 23);
