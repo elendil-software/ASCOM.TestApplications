@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Dome.TestApplication", "ASCOM.Dome.TestApplication\ASCOM.Dome.TestApplication.csproj", "{8E8D406C-1838-4914-867D-AB602D0EAF3E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Switch.TestApplication", "ASCOM.Switch.TestApplication\ASCOM.Switch.TestApplication.csproj", "{544B8128-6D5A-4004-A6C3-1A962005542C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.SafetyMonitor.TestApplication", "ASCOM.SafetyMonitor.TestApplication\ASCOM.SafetyMonitor.TestApplication.csproj", "{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Telescope.TestApplication", "ASCOM.Telescope.TestApplication\ASCOM.Telescope.TestApplication.csproj", "{69347FCF-6D9A-438D-A304-18C2110213B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Debug|x86.Build.0 = Debug|x86
 		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Release|x86.ActiveCfg = Release|x86
 		{D96819A4-78C1-43C6-B7E2-D6DAEAB2CE63}.Release|x86.Build.0 = Release|x86
+		{69347FCF-6D9A-438D-A304-18C2110213B4}.Debug|x86.ActiveCfg = Debug|x86
+		{69347FCF-6D9A-438D-A304-18C2110213B4}.Debug|x86.Build.0 = Debug|x86
+		{69347FCF-6D9A-438D-A304-18C2110213B4}.Release|x86.ActiveCfg = Release|x86
+		{69347FCF-6D9A-438D-A304-18C2110213B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
