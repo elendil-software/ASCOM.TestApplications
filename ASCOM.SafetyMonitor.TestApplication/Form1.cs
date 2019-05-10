@@ -57,7 +57,14 @@ namespace ASCOM.SafetyMonitor.TestApplication
 
         private void readButton_Click(object sender, EventArgs e)
         {
-            isSafeValue.Text = _driver.IsSafe.ToString();
+            try
+            {
+                isSafeValue.Text = _driver.IsSafe.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
         }
     }
 }

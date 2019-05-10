@@ -44,9 +44,10 @@
             // 
             // buttonChoose
             // 
-            this.buttonChoose.Location = new System.Drawing.Point(309, 10);
+            this.buttonChoose.Location = new System.Drawing.Point(412, 12);
+            this.buttonChoose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonChoose.Name = "buttonChoose";
-            this.buttonChoose.Size = new System.Drawing.Size(72, 23);
+            this.buttonChoose.Size = new System.Drawing.Size(96, 28);
             this.buttonChoose.TabIndex = 0;
             this.buttonChoose.Text = "Choose";
             this.buttonChoose.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             // buttonConnect
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(309, 39);
+            this.buttonConnect.Location = new System.Drawing.Point(412, 48);
+            this.buttonConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(72, 23);
+            this.buttonConnect.Size = new System.Drawing.Size(96, 28);
             this.buttonConnect.TabIndex = 1;
             this.buttonConnect.Text = "Connect";
             this.buttonConnect.UseVisualStyleBackColor = true;
@@ -66,9 +68,10 @@
             // 
             this.labelDriverId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelDriverId.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::ASCOM.ObservingConditions.TestApplication.Properties.Settings.Default, "DriverId", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.labelDriverId.Location = new System.Drawing.Point(12, 40);
+            this.labelDriverId.Location = new System.Drawing.Point(16, 49);
+            this.labelDriverId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDriverId.Name = "labelDriverId";
-            this.labelDriverId.Size = new System.Drawing.Size(291, 21);
+            this.labelDriverId.Size = new System.Drawing.Size(387, 25);
             this.labelDriverId.TabIndex = 2;
             this.labelDriverId.Text = global::ASCOM.ObservingConditions.TestApplication.Properties.Settings.Default.DriverId;
             this.labelDriverId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -76,9 +79,10 @@
             // GetDataButton
             // 
             this.GetDataButton.Enabled = false;
-            this.GetDataButton.Location = new System.Drawing.Point(12, 76);
+            this.GetDataButton.Location = new System.Drawing.Point(16, 94);
+            this.GetDataButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GetDataButton.Name = "GetDataButton";
-            this.GetDataButton.Size = new System.Drawing.Size(75, 23);
+            this.GetDataButton.Size = new System.Drawing.Size(100, 28);
             this.GetDataButton.TabIndex = 3;
             this.GetDataButton.Text = "Get Data";
             this.GetDataButton.UseVisualStyleBackColor = true;
@@ -88,9 +92,10 @@
             // 
             this.TemperatureLabel.AutoSize = true;
             this.TemperatureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TemperatureLabel.Location = new System.Drawing.Point(12, 113);
+            this.TemperatureLabel.Location = new System.Drawing.Point(16, 139);
+            this.TemperatureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TemperatureLabel.Name = "TemperatureLabel";
-            this.TemperatureLabel.Size = new System.Drawing.Size(78, 13);
+            this.TemperatureLabel.Size = new System.Drawing.Size(101, 17);
             this.TemperatureLabel.TabIndex = 4;
             this.TemperatureLabel.Text = "Temperature";
             // 
@@ -98,9 +103,10 @@
             // 
             this.HumidityLabel.AutoSize = true;
             this.HumidityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HumidityLabel.Location = new System.Drawing.Point(12, 138);
+            this.HumidityLabel.Location = new System.Drawing.Point(16, 170);
+            this.HumidityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HumidityLabel.Name = "HumidityLabel";
-            this.HumidityLabel.Size = new System.Drawing.Size(55, 13);
+            this.HumidityLabel.Size = new System.Drawing.Size(70, 17);
             this.HumidityLabel.TabIndex = 8;
             this.HumidityLabel.Text = "Humidity";
             // 
@@ -108,9 +114,10 @@
             // 
             this.PressureLabel.AutoSize = true;
             this.PressureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PressureLabel.Location = new System.Drawing.Point(12, 163);
+            this.PressureLabel.Location = new System.Drawing.Point(16, 201);
+            this.PressureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PressureLabel.Name = "PressureLabel";
-            this.PressureLabel.Size = new System.Drawing.Size(56, 13);
+            this.PressureLabel.Size = new System.Drawing.Size(73, 17);
             this.PressureLabel.TabIndex = 9;
             this.PressureLabel.Text = "Pressure";
             // 
@@ -118,9 +125,10 @@
             // 
             this.DewPointLabel.AutoSize = true;
             this.DewPointLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DewPointLabel.Location = new System.Drawing.Point(12, 188);
+            this.DewPointLabel.Location = new System.Drawing.Point(16, 231);
+            this.DewPointLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DewPointLabel.Name = "DewPointLabel";
-            this.DewPointLabel.Size = new System.Drawing.Size(61, 13);
+            this.DewPointLabel.Size = new System.Drawing.Size(75, 17);
             this.DewPointLabel.TabIndex = 10;
             this.DewPointLabel.Text = "DewPoint";
             // 
@@ -128,9 +136,10 @@
             // 
             this.DewPointValue.AutoSize = true;
             this.DewPointValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DewPointValue.Location = new System.Drawing.Point(109, 188);
+            this.DewPointValue.Location = new System.Drawing.Point(145, 231);
+            this.DewPointValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DewPointValue.Name = "DewPointValue";
-            this.DewPointValue.Size = new System.Drawing.Size(53, 13);
+            this.DewPointValue.Size = new System.Drawing.Size(67, 17);
             this.DewPointValue.TabIndex = 14;
             this.DewPointValue.Text = "DewPoint";
             // 
@@ -138,9 +147,10 @@
             // 
             this.PressureValue.AutoSize = true;
             this.PressureValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PressureValue.Location = new System.Drawing.Point(109, 163);
+            this.PressureValue.Location = new System.Drawing.Point(145, 201);
+            this.PressureValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PressureValue.Name = "PressureValue";
-            this.PressureValue.Size = new System.Drawing.Size(48, 13);
+            this.PressureValue.Size = new System.Drawing.Size(65, 17);
             this.PressureValue.TabIndex = 13;
             this.PressureValue.Text = "Pressure";
             // 
@@ -148,9 +158,10 @@
             // 
             this.HumidityValue.AutoSize = true;
             this.HumidityValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HumidityValue.Location = new System.Drawing.Point(109, 138);
+            this.HumidityValue.Location = new System.Drawing.Point(145, 170);
+            this.HumidityValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HumidityValue.Name = "HumidityValue";
-            this.HumidityValue.Size = new System.Drawing.Size(47, 13);
+            this.HumidityValue.Size = new System.Drawing.Size(62, 17);
             this.HumidityValue.TabIndex = 12;
             this.HumidityValue.Text = "Humidity";
             // 
@@ -158,17 +169,18 @@
             // 
             this.TemperatureValue.AutoSize = true;
             this.TemperatureValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TemperatureValue.Location = new System.Drawing.Point(109, 113);
+            this.TemperatureValue.Location = new System.Drawing.Point(145, 139);
+            this.TemperatureValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TemperatureValue.Name = "TemperatureValue";
-            this.TemperatureValue.Size = new System.Drawing.Size(67, 13);
+            this.TemperatureValue.Size = new System.Drawing.Size(90, 17);
             this.TemperatureValue.TabIndex = 11;
             this.TemperatureValue.Text = "Temperature";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 262);
+            this.ClientSize = new System.Drawing.Size(545, 322);
             this.Controls.Add(this.DewPointValue);
             this.Controls.Add(this.PressureValue);
             this.Controls.Add(this.HumidityValue);
@@ -181,8 +193,9 @@
             this.Controls.Add(this.labelDriverId);
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.buttonChoose);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "TEMPLATEDEVICETYPE Test";
+            this.Text = "Observing Conditions";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
