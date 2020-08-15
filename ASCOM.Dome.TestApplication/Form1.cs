@@ -32,6 +32,7 @@ namespace ASCOM.Dome.TestApplication
 		private void buttonChoose_Click(object sender, EventArgs e)
 		{
 			Properties.Settings.Default.DriverId = DriverAccess.Dome.Choose(Properties.Settings.Default.DriverId);
+			labelDriverId.Text = Properties.Settings.Default.DriverId;
 			SetUiState();
 		}
 
@@ -46,6 +47,9 @@ namespace ASCOM.Dome.TestApplication
 				else
 				{
 					driver = new DriverAccess.Dome(Properties.Settings.Default.DriverId) {Connected = true};
+					labelNameValue.Text = driver.Name;
+					labelDescriptionValue.Text = driver.Description;
+					labelDriverInfoValue.Text = driver.DriverInfo;
 					StartTimer();
 				}
 			}
