@@ -50,7 +50,7 @@ namespace ASCOM.Switch.TestApplication
 					driver.Connected = true;
 				
 
-					switchId.Maximum = driver.MaxSwitch;
+					switchId.Maximum = driver.MaxSwitch+1;
 
 					StartTimer();
 				}
