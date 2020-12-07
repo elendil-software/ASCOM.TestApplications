@@ -46,7 +46,11 @@ namespace ASCOM.Dome.TestApplication
 				}
 				else
 				{
-					driver = new DriverAccess.Dome(Properties.Settings.Default.DriverId) {Connected = true};
+					if (driver == null)
+					{
+						driver = new DriverAccess.Dome(Properties.Settings.Default.DriverId) {Connected = true};
+					}
+
 					labelNameValue.Text = driver.Name;
 					labelDescriptionValue.Text = driver.Description;
 					labelDriverInfoValue.Text = driver.DriverInfo;

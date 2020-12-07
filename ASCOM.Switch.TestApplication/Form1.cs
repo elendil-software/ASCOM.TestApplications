@@ -46,10 +46,9 @@ namespace ASCOM.Switch.TestApplication
 				}
 				else
 				{
-					driver = new DriverAccess.Switch(Properties.Settings.Default.DriverId)
-					{
-						Connected = true
-					};
+					driver = new DriverAccess.Switch(Properties.Settings.Default.DriverId);
+					driver.Connected = true;
+				
 
 					switchId.Maximum = driver.MaxSwitch;
 
