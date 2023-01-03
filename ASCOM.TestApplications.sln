@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.SafetyMonitor.TestApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Telescope.TestApplication", "ASCOM.Telescope.TestApplication\ASCOM.Telescope.TestApplication.csproj", "{69347FCF-6D9A-438D-A304-18C2110213B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.CoverCalibrator.TestApplication", "ASCOM.CoverCalibrator.TestApplication\ASCOM.CoverCalibrator.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{69347FCF-6D9A-438D-A304-18C2110213B4}.Release|x64.Build.0 = Release|x64
 		{69347FCF-6D9A-438D-A304-18C2110213B4}.Release|x86.ActiveCfg = Release|x86
 		{69347FCF-6D9A-438D-A304-18C2110213B4}.Release|x86.Build.0 = Release|x86
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Release|x64.Build.0 = Release|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
