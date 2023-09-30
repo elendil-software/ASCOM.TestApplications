@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Telescope.TestApplica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.CoverCalibrator.TestApplication", "ASCOM.CoverCalibrator.TestApplication\ASCOM.CoverCalibrator.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Focuser.TestApplication", "ASCOM.Focuser.TestApplication\ASCOM.Focuser.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
