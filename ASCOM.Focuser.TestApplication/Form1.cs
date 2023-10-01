@@ -38,6 +38,7 @@ namespace ASCOM.Focuser.TestApplication
         {
             if (IsConnected)
             {
+                stateTimer?.Dispose();
                 _driver.Connected = false;
             }
             else
