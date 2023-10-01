@@ -226,7 +226,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 439);
+            this.ClientSize = new System.Drawing.Size(405, 345);
             this.Controls.Add(this.textBoxPosition);
             this.Controls.Add(this.buttonStop);
             this.Controls.Add(this.buttonMove);
@@ -248,7 +248,7 @@
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.buttonChoose);
             this.Name = "Form1";
-            this.Text = "Safety Monitor";
+            this.Text = "Focuser";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
