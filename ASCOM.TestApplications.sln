@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.CoverCalibrator.TestA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Focuser.TestApplication", "ASCOM.Focuser.TestApplication\ASCOM.Focuser.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.FilterWheel.TestApplication", "ASCOM.FilterWheel.TestApplication\ASCOM.FilterWheel.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCOM.Rotator.TestApplication", "ASCOM.Rotator.TestApplication\ASCOM.Rotator.TestApplication.csproj", "{A7310C01-B4D4-42B8-9FB8-34D1186A20CD}"
 EndProject
 Global
